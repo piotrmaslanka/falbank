@@ -1,0 +1,917 @@
+div
+{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+body
+{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+/* ------------------------------------- t1 */
+div#t1
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 164px;
+}
+  div#r1
+  {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 624px;
+    height: 100%;
+    border-bottom: 1px solid;
+  }
+    span#rzng
+    {
+      position: absolute;
+      text-align: center;
+      font-size: 1.9em;
+      font-weight: bold;
+      top: 45px;
+      left: 10px;
+    }
+    span#rzngnr
+    {
+      position: absolute;
+      top: 125px;
+      left: 195px;
+      font-size: 26px;
+    }
+  div#l1
+  {
+    border-left: 1px solid;
+    position: absolute;
+    left: 624px;
+    width: 360px;
+    height: 100%;
+    border-bottom: 1px solid;
+  }
+  	img#logo
+  	{
+  		position: absolute;
+  		left: 2px;
+  	}
+/* --------------------------------- t2 */
+div#t2
+{
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  height: 456px;
+  background-color: yellow;
+}
+  div#n1
+  {
+    position: absolute;
+    width: 624px;
+    height: 228px;
+    border-bottom: 1px solid;
+  }
+    span#nwukn
+    {
+      position: absolute;
+      top: 35px;
+      left: 119px;
+    }
+    span#ninuifield
+    {
+      text-align: center;
+      color: red;
+      position: absolute;
+      left: 0px;
+      font-size: 1.1em;
+      bottom: 148px;
+      width: 597px;
+      border-bottom: dotted 1px black;
+    }
+    span#ninuidesc
+    {
+      position: absolute;
+      top: 90px; 
+      left: 124px;
+      font-size: 0.9em;
+    }
+    span#aintkfield
+    {
+      text-align: center;
+      position: absolute;
+      color: red;
+      left: 0px;
+      bottom: 90px;
+      font-size: 1.1em;
+      width: 561px;
+      border-bottom: dotted 1px black;
+    }
+    span#aintkdesc
+    {
+      position: absolute;
+      top: 151px;
+      left: 130px;
+      font-size: 0.9em;
+    }
+    span#pocztowyfield
+    {
+      text-align: center;
+      color: red;
+      position: absolute;
+      left: 0px;
+      color: red;
+      bottom: 33px;
+      width: 152px;
+      font-size: 1.1em;
+      border-bottom: dotted 1px black;
+    }
+    span#pocztowydesc
+    {
+      position: absolute;
+      top: 201px;
+      left: 21px;
+      font-size: 0.9em;
+    }
+    span#miejscowoscfield
+    {
+      text-align: center;
+      position: absolute;
+      width: 318px;
+      bottom: 32px;
+      font-size: 1.1em;
+      left: 277px;
+      color: red;
+      border-bottom: dotted 1px black;
+    }
+    span#miejscowoscdesc
+    {
+      position: absolute;
+      top: 205px;
+      left: 365px;
+      font-size: 0.9em;
+    }
+  div#n2
+  {
+    position: absolute;
+    height: 228px;
+    left: 624px;
+    width: 360px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+  }
+    span#typkotladesc
+    {
+      position: absolute;
+      top: 53px; 	
+      left: 45px;
+      font-size: 0.8em;	
+    }
+    	span#typkotladescfield
+    	{
+    		text-align: center;
+    		position: absolute;
+    		font-size: 1.1em;
+    		top: 31px;
+	    	color: red;
+    		height: 1.2em;
+    		left: 26px;
+    		width: 135px;
+    		border-bottom: 1px dotted black;
+    	}
+    span#paliwodesc
+    {
+      position: absolute;
+      top: 52px;
+      left: 200px;
+      font-size: 0.8em;
+    }
+    	span#paliwodescfield
+    	{
+    		text-align: center;
+    		font-size: 1.1em;
+	    	color: red;
+    		height: 1.2em;
+    	  	position: absolute;
+    		top: 31px;
+    		left: 161px;
+    		width: 146px;
+    		border-bottom: 1px dotted black;
+    	}
+	span#kociolnrfabrdesc
+    {
+      position: absolute;
+      top: 88px;
+      left: 45px;
+      font-size: 0.8em;
+    }
+    	span#kociolnrfabrdescfield
+    	{
+    		text-align: center;
+    		position: absolute;
+	    	color: red;
+    		font-size: 1.1em;
+    		height: 1.2em;
+    		top: 68px;
+    		left: 27px;
+    		width: 133px;
+    		border-bottom: 1px dotted black;
+    	}	
+    span#kociolrokproddesc
+    {
+      position: absolute;
+      top: 88px;
+      left: 200px;
+      font-size: 0.8em;
+    }
+    	span#kociolrokproddescfield
+    	{
+    		text-align: center;
+    		position: absolute;
+	    	color: red;
+    		top: 68px;
+    		height: 1.2em;
+    		font-size: 1.1em;
+    		left: 160px;
+    		width: 145px;
+    		border-bottom: 1px dotted black;
+    	}	
+	span#regulatordesc
+    {
+      position: absolute;
+      top: 129px;
+      left: 45px;
+      font-size: 0.8em;
+    }
+    	span#regulatordescfield
+    	{
+    		text-align: center;
+	    	color: red;
+    		position: absolute;
+    		font-size: 1.1em;
+    		height: 1.2em;
+    		top: 107px;
+    		left: 27px;
+    		width: 133px;
+    		border-bottom: 1px dotted black;
+       	}
+    span#regulatornrfabrdesc
+    {
+      position: absolute;
+      top: 129px;
+      left: 200px;
+      font-size: 0.8em;
+    }
+    	span#regulatornrfabrdescfield
+    	{
+	    	color: red;
+       		text-align: center;
+    		position: absolute;
+    		font-size: 1.1em;
+    		height: 1.2em;
+    		top: 107px;
+    		left: 160px;
+    		width: 145px;
+    		border-bottom: 1px dotted black;
+    	}	
+	span#palnikdesc
+    {
+      position: absolute;
+      top: 165px;
+      left: 45px;
+      font-size: 0.8em;
+    }
+    	span#palnikdescfield
+    	{
+    		font-size: 1.1em;
+       		text-align: center;
+	    	color: red;
+       		position: absolute;
+    		height: 1.2em;
+    		top: 143px;
+    		left: 27px;
+    		width: 133px;
+    		border-bottom: 1px dotted black;
+       	}
+	span#palniknrfabrdesc
+    {
+      position: absolute;
+      top: 165px;
+      left: 200px;
+      font-size: 0.8em;
+    }
+    	span#palniknrfabrdescfield
+    	{
+    		text-align: center;
+    		position: absolute;
+    		top: 143px;
+    		left: 160px;
+	    	color: red;
+    		font-size: 1.1em;
+    		height: 1.2em;
+    		width: 145px;
+    		border-bottom: 1px dotted black;
+    	}	
+	span#podgrzewaczdesc
+    {
+      position: absolute;
+      top: 204px;
+      left: 45px;
+      font-size: 0.8em;
+    }
+    	span#podgrzewaczdescfield
+    	{
+    		text-align: center;
+    		position: absolute;
+    		height: 1.2em;
+	    	color: red;
+    		top: 178px;
+    		left: 27px;
+    		width: 133px;
+    		font-size: 1.1em;
+    		border-bottom: 1px dotted black;
+       	}
+	span#podgrzewacznrfabrdesc
+    {
+      position: absolute;
+      top: 204px;
+      left: 200px;
+      font-size: 0.8em;
+    }
+    	span#podgrzewacznrfabrdescfield
+    	{
+    		text-align: center;
+    		position: absolute;
+	    	color: red;
+    		top: 178px;
+    		height: 1.2em;
+    		left: 160px;
+    		font-size: 1.1em;
+    		width: 145px;
+    		border-bottom: 1px dotted black;
+    	}	
+    span#datauruchomieniadesc
+    {
+      position: absolute;
+      top: 221px;
+      left: 95px;
+      font-size: 0.8em;
+    }
+    	span#datauruchomieniadescfield
+    	{
+    		text-align: center;
+    		position: absolute;
+    		top: 199px;
+	    	color: red;
+    		height: 1.2em;
+    		left: 79px;
+    		border-bottom: 1px dotted black;
+    		font-size: 1.1em;
+    		width: 164px;
+    	}
+    span#ktouruchamialdesc
+    {
+      position: absolute;
+      top: 211px;
+      left: 107px;
+      font-size: 0.8em;
+    }
+    	span#ktouruchamialdescfield
+    	{
+    		text-align: center;
+    		position: absolute;
+    		top: 188px;
+    		left: 20px;
+    		height: 1.2em;
+    		font-size: 1.1em;
+	    	color: red;
+    		width: 289px;
+    		border-bottom: 1px dotted black;
+    	}
+  div#af1
+  {
+    position: absolute;
+    top: 229px;
+    left: 0px;
+    height: 227px;
+    width: 984px;
+    border-bottom: 1px solid;
+  }
+    span#opisusterkiczynnosci
+    {
+      font-weight: bold;
+    }
+    span#opisusterkiczynnoscifield
+    {
+    	position: absolute;
+    	top: 31px;
+    	left: 5px;
+    	width: 907px;
+    	height: 186px;
+    	font-size: 1.1em;
+    	color: red;
+    }
+/* --------------------------------- t3 */
+div#t3
+{
+		position: absolute;
+		top: 612px;
+		left: 0px;
+		width: 984px;
+		height: 125px;
+		border-bottom: 1px solid;
+}
+	div#wymczbox
+	{
+		position: absolute;
+		top: 56px;
+		left: 10px;
+		width: 103px;		
+	}
+	div#cz1box
+	{
+		position: absolute;
+		left: 117px;
+		top: 16px;
+		width: 838px;
+	}
+	div#cz2box
+	{
+		position: absolute;
+		left: 117px;
+		top: 55px;
+		width: 838px;
+	}
+	div#cz3box
+	{
+		position: absolute;
+		left: 117px;
+		top: 100px;
+		width: 838px;
+	}
+	span.czpartname
+	{
+		position: absolute;
+		left: 18px;
+		width: 374px;
+		height: 1.2em;
+		font-size: 1.2em;
+		border-bottom: 1px solid black;
+		color: red;
+	}
+	span.cznrlabel
+	{
+		position: absolute;
+		font-size: 1.1em;
+		left: 410px;
+	}
+	span.czpartnr
+	{
+		position: absolute;
+		left: 434px;
+		height: 1.2em;
+		font-size: 1.2em;
+		width: 142px;
+		border-bottom: 1px solid black;
+		color: red;
+	}
+	span.czowdzo
+	{
+		position: absolute;
+		left: 582px;
+		font-size: 1em;
+	}
+div#t4
+{
+		position: absolute;
+		top: 737px;
+		left: 0px;
+		height: 322px;
+		width: 984px;
+		border-bottom: 1px solid black;
+}
+	div#n3
+	{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 402px;
+		height: 100%;
+		border-right: 1px solid black;
+	}
+		span#rozliczenieuslugi
+		{
+			position: absolute;
+			left: 1px;
+			top: 21px;
+			width: 220px;
+			height: 13px;
+			font-size: 1.2em;
+		}
+		span#iloscroboczogodzin
+		{
+			position: absolute;
+			font-size: 1.1em;
+			left: 38px;
+			top: 63px;			
+		}
+			span#iloczroboczogodzinfield
+			{
+				position: absolute;
+				left: 278px;
+				top: 63px;
+				height: 1.1em;
+				font-size: 1.1em; 
+				color: red;
+				width: 62px;
+				border-bottom: 1px dotted black;
+			}
+		span#dojazdkm
+		{
+			position: absolute;
+			top: 87px;
+			left: 37px;
+			font-size: 1.1em;
+		}
+			span#dojazdkmfield
+			{
+				position: absolute;
+				left: 278px;
+				top: 87px;
+				width: 62px;
+				color: red;
+				height: 1.1em;
+				font-size: 1.1em; 
+				border-bottom: 1px dotted black;
+			}
+		span#korobocizny
+		{
+			position: absolute;
+			left: 42px;
+			top: 131px;
+			font-size: 1.1em;
+		}
+			span#korobociznyfield
+			{
+				position: absolute;
+				top: 131px; 
+				left: 175px;
+				height: 1.1em;
+				color: red;
+				font-size: 1.1em; 
+				width: 126px;
+				border-bottom: 1px dotted black; 
+			}
+			span#korobociznypln
+			{
+				font-size: 1.1em;
+				position: absolute;
+				top: 131px;
+				left: 301px;
+			}
+		span#kodojazdu
+		{
+			position: absolute;
+			font-size: 1.1em;
+			height: 1.1em; 
+			left: 42px;
+			top: 175px;
+		}
+			span#kodojazdufield
+			{
+				position: absolute;
+				top: 175px; 
+				left: 175px;
+				color: red;
+				height: 1.1em;
+				font-size: 1.1em; 
+				width: 126px;
+				border-bottom: 1px dotted black; 
+			}
+			span#kodojazdupln
+			{
+				position: absolute;
+				top: 175px;
+				font-size: 1.1em;
+				left: 301px;
+			}
+		span#koczesci
+		{
+			position: absolute;
+			left: 42px;
+			top: 217px;
+			font-size: 1.1em;
+		}
+			span#koczescifield
+			{
+				position: absolute;
+				top: 217px;
+				height: 1.1em;
+				color: red;
+				font-size: 1.1em; 
+				left: 175px;
+				width: 126px;
+				border-bottom: 1px dotted black; 
+			}
+			span#koczescipln
+			{
+				position: absolute;
+				font-size: 1.1em;
+				top: 217px;
+				left: 301px;
+			}
+		span#razemnettoseparatorline
+		{
+			position: absolute;
+			left: 138px;
+			top: 266px;
+			border-bottom: 1px solid black;
+			width: 195px;
+		}
+		span#razemnettolabel
+		{
+			position: absolute;
+			top: 283px;
+			left: 42px;
+			font-size: 1.1em;
+			font-weight: bold;
+		} 
+		span#razemnettofield
+		{
+			position: absolute;
+			border-bottom: 1px dotted black;
+			top: 285px;
+			left: 155px;
+			color: red;
+			height: 1.25em;
+			font-size: 1.1em;
+			width: 145px;
+		}
+		span#razemnettopln
+		{
+			position: absolute;
+			font-size: 1.1em;
+			top: 288px;
+			left: 301px;
+		}
+	div#n4
+	{
+		position: absolute;
+		width: 582px;
+		height: 211px;
+		top: 0px;
+		left: 402px;
+		border-bottom: 1px solid black;
+	}
+		span#oswdczklienta
+		{
+			position: absolute;
+			left: 151px;
+			top: 20px;
+			font-size: 1.2em;
+		}
+		div#klientpotwierdza
+		{
+			position: absolute;
+			left: 102px;
+			top: 64px;
+			width: 340px;
+			height: 60px;
+			text-align: center;
+		}
+		span#polepodpis
+		{
+			position: absolute;
+			top: 143px;
+			left: 108px;
+			color: red;
+			width: 316px;
+			border-bottom: 1px dotted black;
+			height: 18px;
+			font-size: 1.1em;
+		}
+		span#dataipodpisklienta
+		{
+			position: absolute;
+			left: 203px;
+			top: 179px;
+			height: 10px;
+			font-size: 0.8em;
+		}
+	div#n5
+	{
+		position: absolute;
+		left: 402px;
+		top: 211px;
+		width: 582px;
+		height: 111px;
+	}
+		div#wadczsatak
+		{
+			position: absolute;
+			top: 42px;
+			left: 79px;
+			width: 72px;
+			height: 32px;
+			border: 1px solid black;
+		}
+		div#wadczsanie
+		{
+			position: absolute;
+			top: 42px;
+			left: 336px;
+			width: 72px;
+			height: 32px;
+			border: 1px solid black;
+		}
+		span.middletext
+		{
+			position: absolute;
+			left: 14px;
+			font-size: 1.1em;
+			top: 5px;
+			vertical-align: middle;
+		}
+		span#wczsz
+		{
+			position: absolute;
+			top: 8px;
+			left: 104px;
+			font-size: 1.2em;
+			letter-spacing: 0.1em;
+		}
+div#t5
+{
+	position: absolute;
+	top: 1068px;
+	left: 0px;
+	height: 85px;
+	width: 984px;
+	border-bottom: 1px solid black; 
+}
+	span#t5miejscowosc
+	{
+		position: absolute;
+		left: 66px;
+		top: 49px;
+		font-size: 0.9em;
+	}
+		span#t5miejscowoscfield
+		{
+			position: absolute;
+			left: 4px;
+			text-align: center;
+			top: 22px;
+			color: red;	
+			height: 1.1em;
+			font-size: 1.1em;
+			width: 334px;
+			border-bottom: 1px dotted black;
+		}
+	span#t5data
+	{
+		position: absolute;
+		left: 441px;
+		top: 49px;
+		font-size: 0.9em;
+	}
+		span#t5datafield
+		{
+			position: absolute;
+			top: 22px;
+			text-align: center;
+			left: 382px;
+			color: red;	
+			height: 1.1em;
+			font-size: 1.1em;
+			width: 132px;
+			border-bottom: 1px dotted black;
+		}
+	span#t5nipserwis
+	{
+		position: absolute;
+		left: 703px;
+		top: 49px;
+		font-size: 0.9em;
+	}
+		span#t5nipserwisfield
+		{
+			position: absolute;
+			top: 22px;
+			height: 1.1em;
+			text-align: center;
+			color: red;	
+			font-size: 1.1em;
+			left: 683px;
+			width: 238px;
+			border-bottom: 1px dotted black;
+		}
+div#t6
+{
+	position: absolute;
+	top: 1170px;	/* 88 */
+	width: 984px;
+	left: 0px;
+	height: 230px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+	span#oswddcaption
+	{
+		position: absolute;
+		left: 0px;
+		top: 12px;
+		font-size: 1.1em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	span#akceptujemy
+	{
+		position: absolute;
+		left: 1px;
+		font-size: 1.1em;
+		top: 58px;
+	}
+	div#prosimyowyst
+	{
+		position: absolute;
+		top: 126px;
+		left: 1px;
+	}
+		span#prosimycast { display: inline; }
+		span#zlnetto     { display: inline;	}
+		span#zlnettofield
+		{
+  			display: inline-block;
+			height: 1em;
+			width: 186px;
+			border-bottom: 1px dotted black;
+		} 
+	div#wroclaw
+	{
+		position: absolute;
+		left: 9px;
+		top: 169px;
+	}
+		span#wroclawcaption	{ display: inline; }
+		span#wroclawfield
+		{
+			display: inline-block;
+			width: 135px;
+			height: 1em;
+			border-bottom: 1px dotted black;
+		}
+	span#niepotrzebneskreslic
+	{
+		position: absolute;
+		top: 210px;
+		left: 10px;
+		font-size: 0.8em;
+	}
+	span#sprawdzil
+	{
+		position: absolute;
+		top: 211px;
+		left: 351px;
+		font-size: 0.8em;
+	}
+		span#sprawdzilfield
+		{
+			position: absolute;
+			height: 1em;
+			left: 266px;
+			width: 250px;
+			top: 185px;
+			border-bottom: 1px dotted black;
+		}
+	span#nrkosztu
+	{
+		position: absolute;
+		top: 211px;
+		left: 770px;
+		font-size: 0.8em;
+	}
+		span#nrkosztufield
+		{
+			position: absolute;
+			height: 1em;
+			width: 180px;
+			left: 699px;
+			top: 185px;
+			border-bottom: 1px dotted black;
+		}
+	span#poleuwagDD1
+	{
+		position: absolute;
+		top: 77px;
+		width: 932px;
+		height: 1em;
+		border-bottom: 1px dotted black;
+	}
+	span#poleuwagDD2
+	{
+		position: absolute;
+		top: 97px;
+		width: 932px;
+		height: 1em;
+		border-bottom: 1px dotted black;
+	}		

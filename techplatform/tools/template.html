@@ -1,0 +1,19 @@
+@@prog@@listaludzi@@
+	<html><head><title>Lista ludzi nr %nrlisty%</title></head><body>
+	@@ifs@@nieaktualna=1@@nieaktualna@@aktualna@@
+	<br><table>
+	@@block@@tabelka@@
+		<tr><td>%imie%</td><td>%nazwisko%</td><td>%wiek%</td>@@ifs@@nieaktualny=1@@nieaktualny@@</tr>
+		@@subblock@@nieaktualny@@
+			<td></b>Nieaktualny!</b></td>
+		@@endsubblock@@
+	@@endblock@@
+	</table>
+	@@subblock@@nieaktualna@@
+		<center>Lista nieaktualna</center>
+	@@endsubblock@@
+	@@subblock@@aktualna@@
+		<center>Lista aktualna!</center>
+	@@endsubblock@@
+	</body></html>
+@@endprog@@

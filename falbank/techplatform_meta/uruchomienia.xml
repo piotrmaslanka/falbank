@@ -1,0 +1,15 @@
+<specification>
+<table name="Uruchomienia">
+	<field name="id" type="int" signed="no" auto_increment="yes" />
+	<field name="nazwa" type="varchar" len="30" />
+	<field name="typurzadzenia" type="varchar" len="40" />
+	<field name="ktouruch" type="varchar" len="30" />
+	<field name="datauruch" type="int" signed="no" />
+	<field name="dataostr" type="int" signed="no" />
+	<field name="uwagi" type="text" />
+	<field name="ulica" type="varchar" len="40" />
+	<field name="kodmiejscowosc" type="varchar" len="50" />
+	
+	<primary name="id" />
+</table>
+</specification>

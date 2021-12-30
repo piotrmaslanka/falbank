@@ -1,0 +1,28 @@
+<specification>
+<table name="CzesciPrzyjete">
+	<field name="id" type="int" signed="no" auto_increment="yes" />
+	<field name="data" type="int" signed="no" />
+	<field name="nrdd" type="varchar" len="20" />
+	<field name="fk_nrZam" type="int" signed="no" />
+	<field name="ilosc" type="int" />
+	<field name="nrkata" type="varchar" len="20" />
+	<field name="nazwa" type="varchar" len="20" />
+	<primary name="id" />
+</table>
+
+<table name="CzesciZamawiane">
+	<field name="id" type="int" signed="no" auto_increment="yes" />
+	<field name="ilosc" type="int" />
+	<field name="nrkata" type="varchar" len="20" />
+	<field name="nazwa" type="varchar" len="20" />
+	<field name="fk_nrZam" type="int" signed="no" />
+	<primary name="id" />
+</table>
+
+<table name="CzesciDoProtokolu">
+	<field name="id" type="int" signed="no" auto_increment="yes" />
+	<field name="nrkata" type="varchar" len="20" />
+	<field name="fk_nrZam" type="int" signed="no" />
+	<primary name="id" />
+</table>	
+</specification>

@@ -1,0 +1,5 @@
+#! /bin/bash
+rm -Rf sql/*
+rm -Rf php/*
+ormgen gensql . sql
+ormgen genphp . php falbank database

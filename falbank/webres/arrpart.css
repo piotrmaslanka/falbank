@@ -1,0 +1,22 @@
+div#centerf
+{
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	right: 25%;
+	width: 60%;
+}
+input#ok
+{
+	position: absolute;
+	left: 40%;
+	width: 20%;
+}
+div#magazyn
+{
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	left: 40%;
+	width: 50%;
+}

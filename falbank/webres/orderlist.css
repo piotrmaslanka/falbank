@@ -1,0 +1,33 @@
+div.zamowienie
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.zam_header
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	display: inline;
+}
+div.zam_header_additional
+{
+	float: right;
+}
+div.zam_header_mini
+{
+	display: inline;
+	margin: 5em;
+}
+div.zam_content
+{
+	margin-left: 1em;
+	height: 5%;
+	background-color: blue;	
+}
+div.zam_item
+{
+	display: inline-block;
+	margin-left: 2em;
+	line-break-after: never;
+}

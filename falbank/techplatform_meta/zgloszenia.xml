@@ -1,0 +1,47 @@
+<specification>
+<table name="Zgloszenie">
+  <field name="id" type="int" signed="no" auto_increment="yes" />
+  <field name="nrurzadzenia" type="varchar" len="30" />
+  <field name="typurzadzenia" type="varchar" len="20" />
+  <field name="ulica" type="varchar" len="150" />
+  <field name="kodmiejscowosc" type="varchar" len="50" />  
+  <field name="telefon" type="varchar" len="15" />
+  <field name="przyczyna" type="text" />
+  <field name="ktonaprawil" type="varchar" len="30" />
+  <field name="uwagi" type="text" />
+  <field name="kiedynaprawione" type="int" signed="no" />
+  <field name="kiedyzgloszone" type="int" signed="no" />
+  <field name="ktoprzyjal" type="varchar" len="30" />
+  
+  <field name="zrealizowana" type="tinyint" />
+  <field name="gwarancyjna" type="tinyint" />
+  <field name="fk_zgl_gwara" type="int" signed="no" />
+  
+  <field name="nazwa" type="varchar" len="40" />  
+  <primary name="id" />
+</table>
+
+<table name="ZgloszenieGwarancyjne">
+  <field name="id" type="int" signed="no" auto_increment="yes" />
+  <field name="km" type="float" />
+  <field name="godziny" type="float" />
+  <field name="nrproto" type="varchar" len="50" />
+  <field name="opis" type="text" />
+  <field name="u1typ" type="varchar" len="30" />
+  <field name="u1paliwo" type="varchar" len="30" />
+  <field name="u1nrfabr" type="varchar" len="30" />
+  <field name="u1rokprod" type="varchar" len="30" />
+  <field name="u2typ" type="varchar" len="30" />
+  <field name="u2nrfabr" type="varchar" len="30" />
+  <field name="u2rokprod" type="varchar" len="30" />
+  <field name="datauruchom" type="int" signed="no" />
+  <field name="ktouruchom" type="varchar" len="20" />
+
+  <field name="zamkniete" type="tinyint" />
+  <field name="wyslano_liste_czesci" type="int" signed="no" />
+  
+  <field name="rozliczono" type="tinyint"/>  
+  <primary name="id" />
+</table>
+
+</specification>

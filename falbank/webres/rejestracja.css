@@ -1,0 +1,13 @@
+
+li.rejestracjamenuitem
+{
+	display: inline;
+	margin: 0.4%;
+	padding: 0px;
+}
+ul { margin:0;padding:0;}
+
+div#rejestracjamenu
+{
+	background-color: #226277;
+}

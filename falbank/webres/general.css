@@ -1,0 +1,50 @@
+body
+{
+	background-color: #5588FF;
+	color: white;
+}
+img#menufalbanklogo { height: 1em; }
+a
+{
+	color: white;
+}
+
+li.menuitem
+{
+	display: inline;
+	margin: 0.3%;
+	padding: 0px;
+	font-size: 0.8em;
+}
+ul { margin:0;padding:0;}
+
+div#menu
+{
+	background-color: #000077;
+	border: 1px solid;
+	border-color: yellow;
+}
+
+div#menuinfobox
+{
+	position: absolute;
+	right: 0%;
+	bottom: 0%;
+}
+.menuinfoboxitem
+{
+	float: right;
+	display: block;
+	clear: both;
+}
+div.cleav { margin-left: 2em; }
+a.done
+{
+	color: green;
+	font-weight: bold;
+}
+a.notdone
+{
+	color: #800080;
+	font-weight: bold;
+}

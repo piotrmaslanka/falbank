@@ -1,0 +1,52 @@
+div#partstatus { margin: 0.5em 0 0.5em 0; }
+div.part { margin: 0.8em 0 0.8em 1em; }
+label
+{
+  display: inline;
+  float: left;
+  clear: left;
+  text-align: center;
+  width: 30%;
+}
+fieldset {margin: 0 0 0 0; border: 0px; }
+
+input, textarea, select
+{
+  margin: 0.1em 0 0 0;
+  width: 50%;
+  border: 1px solid #FEF7D6;
+}
+
+div.ifield
+{
+	margin: 3px 0;
+	display: block;
+	vertical-align: middle;
+
+}
+div#formbox2
+{
+	position: absolute;
+	left: 34%;
+	right: 40%;
+	width: 40%; 
+}
+div#formbox1
+{
+	position: absolute;
+	width: 40%;
+	left: 0%;
+	right: 60%;
+}
+div#zgloszenie_command
+{
+	position:absolute;
+	top: 8%;
+	right: 0.5%;
+	left: 75%;
+	width: 18%;
+}
+div#submitpositor
+{
+	position: absolute; bottom: 0%; left: 10%; width: 10%;
+} 
